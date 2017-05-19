@@ -3,3 +3,10 @@ a suitable Syntax Directed Translation Scheme to convert Java code to Java bytec
 - phase1 : building automatic lexical analyzer generator tools (lexical)  
 - phase2 : building automatic LL(1) parser generator tools (syntax)  
 - phase3 : constructing semantics rules to generate java bytecode (semantic) 
+
+- Teammates
+
+  - Esraa Mohamed
+  - Gehad Fathy
+  - Rewan Alaa
+  - Amira Mohamed
