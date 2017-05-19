@@ -1,0 +1,160 @@
+---------  first of each symbol ------------------
+first of (: ( 
+first of ): ) 
+first of +: + 
+first of -: - 
+first of ;: ; 
+first of =: = 
+first of ASSIGNMENT: id 
+first of DECLARATION: float int 
+first of EXPRESSION: ( + - id num 
+first of EXPRESSION_: \L relop 
+first of FACTOR: ( id num 
+first of IF: if 
+first of METHOD_BODY: float id if int while 
+first of PRIMITIVE_TYPE: float int 
+first of SIGN: + - 
+first of SIMPLE_EXPRESSION: ( + - id num 
+first of SIMPLE_EXPRESSION_: \L addop 
+first of STATEMENT: float id if int while 
+first of STATEMENT_LIST: float id if int while 
+first of STATEMENT_LIST_: \L float id if int while 
+first of TERM: ( id num 
+first of TERM_: \L mulop 
+first of TERM__mulop: ( id num 
+first of WHILE: while 
+first of \L: \L 
+first of addop: addop 
+first of else: else 
+first of float: float 
+first of id: id 
+first of if: if 
+first of int: int 
+first of mulop: mulop 
+first of num: num 
+first of relop: relop 
+first of while: while 
+first of {: { 
+first of }: } 
+---------  follow of each symbol ------------------
+follow of ASSIGNMENT: 
+follow of DECLARATION: 
+follow of EXPRESSION: ; 
+follow of EXPRESSION_: ) ; 
+follow of FACTOR: 
+follow of IF: 
+follow of METHOD_BODY: $ 
+follow of PRIMITIVE_TYPE: id 
+follow of SIGN: 
+follow of SIMPLE_EXPRESSION: ) ; relop 
+follow of SIMPLE_EXPRESSION_: ) ; relop 
+follow of STATEMENT: } 
+follow of STATEMENT_LIST: $ 
+follow of STATEMENT_LIST_: $ 
+follow of TERM: ) ; addop relop 
+follow of TERM_: ) ; addop relop 
+follow of TERM__mulop: ) ; addop relop 
+follow of WHILE: $ float id if int while } 
+follow of \L: 
+------------------ table -----------------------
+nonTerminal :: ASSIGNMENT
+input id: id = EXPRESSION ; 
+nonTerminal :: DECLARATION
+input float: PRIMITIVE_TYPE id ; 
+input int: PRIMITIVE_TYPE id ; 
+nonTerminal :: EXPRESSION
+input (: SIMPLE_EXPRESSION EXPRESSION_ 
+input +: SIMPLE_EXPRESSION EXPRESSION_ 
+input -: SIMPLE_EXPRESSION EXPRESSION_ 
+input ;: sync 
+input id: SIMPLE_EXPRESSION EXPRESSION_ 
+input num: SIMPLE_EXPRESSION EXPRESSION_ 
+nonTerminal :: EXPRESSION_
+input ): \L 
+input ;: \L 
+input relop: relop SIMPLE_EXPRESSION 
+nonTerminal :: FACTOR
+input (: ( SIMPLE_EXPRESSION EXPRESSION_ ) 
+input id: id 
+input num: num 
+nonTerminal :: IF
+input if: if ( SIMPLE_EXPRESSION EXPRESSION_ ) { STATEMENT } else { STATEMENT } 
+nonTerminal :: METHOD_BODY
+input $: sync 
+input float: STATEMENT_LIST 
+input id: STATEMENT_LIST 
+input if: STATEMENT_LIST 
+input int: STATEMENT_LIST 
+input while: STATEMENT_LIST 
+nonTerminal :: PRIMITIVE_TYPE
+input float: float 
+input id: sync 
+input int: int 
+nonTerminal :: SIGN
+input +: + 
+input -: - 
+nonTerminal :: SIMPLE_EXPRESSION
+input (: TERM SIMPLE_EXPRESSION_ 
+input ): sync 
+input +: + TERM SIMPLE_EXPRESSION_ 
+input -: - TERM SIMPLE_EXPRESSION_ 
+input ;: sync 
+input id: TERM SIMPLE_EXPRESSION_ 
+input num: TERM SIMPLE_EXPRESSION_ 
+input relop: sync 
+nonTerminal :: SIMPLE_EXPRESSION_
+input ): \L 
+input ;: \L 
+input addop: addop TERM SIMPLE_EXPRESSION_ 
+input relop: \L 
+nonTerminal :: STATEMENT
+input float: PRIMITIVE_TYPE id ; 
+input id: id = EXPRESSION ; 
+input if: if ( SIMPLE_EXPRESSION EXPRESSION_ ) { STATEMENT } else { STATEMENT } 
+input int: PRIMITIVE_TYPE id ; 
+input while: WHILE 
+input }: sync 
+nonTerminal :: STATEMENT_LIST
+input $: sync 
+input float: PRIMITIVE_TYPE id ; STATEMENT_LIST_ 
+input id: id = EXPRESSION ; STATEMENT_LIST_ 
+input if: if ( SIMPLE_EXPRESSION EXPRESSION_ ) { STATEMENT } else { STATEMENT } STATEMENT_LIST_ 
+input int: PRIMITIVE_TYPE id ; STATEMENT_LIST_ 
+input while: WHILE STATEMENT_LIST_ 
+nonTerminal :: STATEMENT_LIST_
+input $: \L 
+input float: PRIMITIVE_TYPE id ; STATEMENT_LIST_ 
+input id: id = EXPRESSION ; STATEMENT_LIST_ 
+input if: if ( SIMPLE_EXPRESSION EXPRESSION_ ) { STATEMENT } else { STATEMENT } STATEMENT_LIST_ 
+input int: PRIMITIVE_TYPE id ; STATEMENT_LIST_ 
+input while: WHILE STATEMENT_LIST_ 
+nonTerminal :: TERM
+input (: ( SIMPLE_EXPRESSION EXPRESSION_ ) TERM_ 
+input ): sync 
+input ;: sync 
+input addop: sync 
+input id: id TERM_ 
+input num: num TERM_ 
+input relop: sync 
+nonTerminal :: TERM_
+input ): \L 
+input ;: \L 
+input addop: \L 
+input mulop: mulop TERM__mulop 
+input relop: \L 
+nonTerminal :: TERM__mulop
+input (: ( SIMPLE_EXPRESSION EXPRESSION_ ) TERM_ 
+input ): sync 
+input ;: sync 
+input addop: sync 
+input id: id TERM_ 
+input num: num TERM_ 
+input relop: sync 
+nonTerminal :: WHILE
+input $: sync 
+input float: sync 
+input id: sync 
+input if: sync 
+input int: sync 
+input while: while ( SIMPLE_EXPRESSION EXPRESSION_ ) { STATEMENT } 
+input }: sync 

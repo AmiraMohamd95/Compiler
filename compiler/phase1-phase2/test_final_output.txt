@@ -1,0 +1,31 @@
+current line :int x;
+int : int
+x : id
+; : ;
+current line :x = 5;
+x : id
+= : assign
+5 : num
+; : ;
+current line :if (x > 2)
+if : if
+( : (
+x : id
+> : relop
+2 : num
+) : )
+current line :{
+{ : {
+current line :     x = 0;
+x : id
+= : assign
+0 : num
+; : ;
+current line :}
+} : }
+current line :else
+else : else
+current line :{while}
+{ : {
+while : while
+} : }

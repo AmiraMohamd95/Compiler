@@ -1,0 +1,17 @@
+##  ASSIGNMENT -->  ‘id’ ‘=’ EXPRESSION ‘;’ 
+##  DECLARATION -->  PRIMITIVE_TYPE ‘id’ ‘;’ 
+##  EXPRESSION -->  SIMPLE_EXPRESSION  | SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION 
+##  FACTOR -->  ‘id’  | ‘num’  | ‘(‘ SIMPLE_EXPRESSION ‘)’  | ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ 
+##  IF -->  ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ 
+##  METHOD_BODY -->  STATEMENT_LIST 
+##  PRIMITIVE_TYPE -->  ‘int’  | ‘float’ 
+##  SIGN -->  ‘+’  | ‘-‘ 
+##  SIMPLE_EXPRESSION -->  TERM SIMPLE_EXPRESSION_  | ‘+’ TERM SIMPLE_EXPRESSION_  | ‘-‘ TERM SIMPLE_EXPRESSION_ 
+##  SIMPLE_EXPRESSION_ -->  ‘addop’ TERM SIMPLE_EXPRESSION_  | \L 
+##  STATEMENT -->  WHILE  | ‘id’ ‘=’ EXPRESSION ‘;’  | PRIMITIVE_TYPE ‘id’ ‘;’  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ 
+##  STATEMENT_LIST -->  WHILE STATEMENT_LIST_  | ‘id’ ‘=’ EXPRESSION ‘;’ STATEMENT_LIST_  | PRIMITIVE_TYPE ‘id’ ‘;’ STATEMENT_LIST_  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ STATEMENT_LIST_  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ STATEMENT_LIST_ 
+##  STATEMENT_LIST_ -->  WHILE STATEMENT_LIST_  | ‘id’ ‘=’ EXPRESSION ‘;’ STATEMENT_LIST_  | PRIMITIVE_TYPE ‘id’ ‘;’ STATEMENT_LIST_  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ STATEMENT_LIST_  | ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ STATEMENT_LIST_  | \L 
+##  TERM -->  ‘id’ TERM_  | ‘num’ TERM_  | ‘(‘ SIMPLE_EXPRESSION ‘)’ TERM_  | ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ TERM_ 
+##  TERM_ -->  ‘mulop’ ‘id’ TERM_  | ‘mulop’ ‘num’ TERM_  | ‘mulop’ ‘(‘ SIMPLE_EXPRESSION ‘)’ TERM_  | ‘mulop’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ TERM_  | \L 
+##  WHILE -->  ‘while’ ‘(‘ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ‘}’  | ‘while’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ‘}’  | ‘while’ ‘(‘ EXPRESSION ‘)’ ‘{‘ WHILE ‘}’  | ‘while’ ‘(‘ EXPRESSION ‘)’ ‘{‘ ‘id’ ‘=’ EXPRESSION ‘;’ ‘}’  | ‘while’ ‘(‘ EXPRESSION ‘)’ ‘{‘ PRIMITIVE_TYPE ‘id’ ‘;’ ‘}’  | ‘while’ ‘(‘ EXPRESSION ‘)’ ‘{‘ ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ ‘}’  | ‘while’ ‘(‘ EXPRESSION ‘)’ ‘{‘ ‘if’ ‘(‘ SIMPLE_EXPRESSION ‘relop’ SIMPLE_EXPRESSION ‘)’ ‘{‘ STATEMENT ’}’ ‘else’ ‘{’ STATEMENT ‘}’ ‘}’ 
+nonterminals size : 16

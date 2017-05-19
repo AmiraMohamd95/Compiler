@@ -1,0 +1,1158 @@
+# depslib dependency file v1.0
+1491817208 source:/home/amira/LexicalAnalyzerFinal/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+
+1491817208 r.h"
+
+1491817292 /home/amira/LexicalAnalyzerFinal/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1493026963 
+
+1491817260 /home/amira/LexicalAnalyzerFinal/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491817333 /home/amira/LexicalAnalyzerFinal/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491817269 /home/amira/LexicalAnalyzerFinal/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491817281 /home/amira/LexicalAnalyzerFinal/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1491810080 h>
+
+1491817119 source:/home/amira/LexicalAnalyzerFinal/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491817134 source:/home/amira/LexicalAnalyzerFinal/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491809934 >
+
+1491817152 source:/home/amira/LexicalAnalyzerFinal/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491817717 source:/home/amira/LexicalAnalyzerFinal/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1492518384 lyzer.h"
+
+1491817323 /home/amira/LexicalAnalyzerFinal/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1491817314 /home/amira/LexicalAnalyzerFinal/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+
+1491817314 h"
+
+1491817181 source:/home/amira/LexicalAnalyzerFinal/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491817304 /home/amira/LexicalAnalyzerFinal/include/File_Reader.h
+
+1491817740 source:/home/amira/LexicalAnalyzerFinal/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1491817221 source:/home/amira/LexicalAnalyzerFinal/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1493036445 ++.h>
+
+1491817234 source:/home/amira/LexicalAnalyzerFinal/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1492276466 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+
+1492525134 structor.h"
+
+1491817292 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491817260 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491817333 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491817269 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491817281 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1491817119 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491817134 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491817152 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491817717 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491817323 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1491817314 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+
+1491817181 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491817304 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/File_Reader.h
+
+1491817740 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1491817221 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491817234 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1492279332 source:/home/amira/Desktop/final project /LexicalAnalyzerFinal/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+
+1492275588 /home/amira/Desktop/final project /LexicalAnalyzerFinal/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1492525135 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+
+1491817292 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491817260 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491817333 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491817269 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491817281 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1492524135 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1491817119 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491817134 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491817152 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491817717 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491817323 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1492525572 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1491817181 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491817304 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/File_Reader.h
+
+1492525584 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1491817221 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491817234 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1492527077 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1493024727 e.h"
+
+1492524841 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1492263296 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Input_file.h
+	<bits/stdc++.h>
+
+1492525097 source:/home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1492272480 /home/gehad/Documents/phase2Compiler/LexicalAnalyzerFinal/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1492525134 source:/home/rewan/Desktop/parser_gehad/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+
+1491817292 /home/rewan/Desktop/parser_gehad/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491817260 /home/rewan/Desktop/parser_gehad/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491817332 /home/rewan/Desktop/parser_gehad/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491817268 /home/rewan/Desktop/parser_gehad/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491817280 /home/rewan/Desktop/parser_gehad/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1492524134 /home/rewan/Desktop/parser_gehad/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1491817118 source:/home/rewan/Desktop/parser_gehad/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491817134 source:/home/rewan/Desktop/parser_gehad/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491817152 source:/home/rewan/Desktop/parser_gehad/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491817716 source:/home/rewan/Desktop/parser_gehad/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491817322 /home/rewan/Desktop/parser_gehad/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1492525572 /home/rewan/Desktop/parser_gehad/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492272480 /home/rewan/Desktop/parser_gehad/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491817180 source:/home/rewan/Desktop/parser_gehad/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491817304 /home/rewan/Desktop/parser_gehad/include/File_Reader.h
+
+1492525584 source:/home/rewan/Desktop/parser_gehad/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1491817220 source:/home/rewan/Desktop/parser_gehad/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491817234 source:/home/rewan/Desktop/parser_gehad/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1492528250 source:/home/rewan/Desktop/parser_gehad/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1492263296 /home/rewan/Desktop/parser_gehad/include/Input_file.h
+	<bits/stdc++.h>
+
+1492524840 source:/home/rewan/Desktop/parser_gehad/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1492531836 source:/home/rewan/Desktop/parser_gehad/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1492525134 source:/home/gehad/Downloads/parser_gehad/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+
+1491817292 /home/gehad/Downloads/parser_gehad/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491817260 /home/gehad/Downloads/parser_gehad/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491817332 /home/gehad/Downloads/parser_gehad/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491817268 /home/gehad/Downloads/parser_gehad/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491817280 /home/gehad/Downloads/parser_gehad/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1492524134 /home/gehad/Downloads/parser_gehad/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1491817118 source:/home/gehad/Downloads/parser_gehad/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491817134 source:/home/gehad/Downloads/parser_gehad/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491817152 source:/home/gehad/Downloads/parser_gehad/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491817716 source:/home/gehad/Downloads/parser_gehad/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491817322 /home/gehad/Downloads/parser_gehad/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1492525572 /home/gehad/Downloads/parser_gehad/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492272480 /home/gehad/Downloads/parser_gehad/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491817180 source:/home/gehad/Downloads/parser_gehad/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491817304 /home/gehad/Downloads/parser_gehad/include/File_Reader.h
+
+1492525584 source:/home/gehad/Downloads/parser_gehad/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1492524840 source:/home/gehad/Downloads/parser_gehad/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1492263296 /home/gehad/Downloads/parser_gehad/include/Input_file.h
+	<bits/stdc++.h>
+
+1491817220 source:/home/gehad/Downloads/parser_gehad/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491817234 source:/home/gehad/Downloads/parser_gehad/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1492531836 source:/home/gehad/Downloads/parser_gehad/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1492963738 source:/home/gehad/Downloads/parser_gehad/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1492525134 source:/home/amira/Desktop/parser_gehad/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+
+1491817292 /home/amira/Desktop/parser_gehad/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491817260 /home/amira/Desktop/parser_gehad/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491817332 /home/amira/Desktop/parser_gehad/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491817268 /home/amira/Desktop/parser_gehad/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491817280 /home/amira/Desktop/parser_gehad/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1492524134 /home/amira/Desktop/parser_gehad/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1491817118 source:/home/amira/Desktop/parser_gehad/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491817134 source:/home/amira/Desktop/parser_gehad/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491817152 source:/home/amira/Desktop/parser_gehad/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491817716 source:/home/amira/Desktop/parser_gehad/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491817322 /home/amira/Desktop/parser_gehad/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1492525572 /home/amira/Desktop/parser_gehad/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492272480 /home/amira/Desktop/parser_gehad/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491817180 source:/home/amira/Desktop/parser_gehad/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491817304 /home/amira/Desktop/parser_gehad/include/File_Reader.h
+
+1492525584 source:/home/amira/Desktop/parser_gehad/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1492524840 source:/home/amira/Desktop/parser_gehad/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1492263296 /home/amira/Desktop/parser_gehad/include/Input_file.h
+	<bits/stdc++.h>
+
+1491817220 source:/home/amira/Desktop/parser_gehad/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491817234 source:/home/amira/Desktop/parser_gehad/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1492964746 source:/home/amira/Desktop/parser_gehad/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1492963738 source:/home/amira/Desktop/parser_gehad/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1493035504 source:c:\users\user\desktop\last_version\withbonus\main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1491810092 c:\users\user\desktop\last_version\withbonus\include\engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491810060 c:\users\user\desktop\last_version\withbonus\include\automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491810132 c:\users\user\desktop\last_version\withbonus\include\node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491810068 c:\users\user\desktop\last_version\withbonus\include\automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491810080 c:\users\user\desktop\last_version\withbonus\include\dfacreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1493024764 c:\users\user\desktop\last_version\withbonus\include\table_constructor.h
+	<bits/stdc++.h>
+
+1491809918 source:c:\users\user\desktop\last_version\withbonus\src\automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491809934 source:c:\users\user\desktop\last_version\withbonus\src\automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491809952 source:c:\users\user\desktop\last_version\withbonus\src\dfacreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491810516 source:c:\users\user\desktop\last_version\withbonus\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491810122 c:\users\user\desktop\last_version\withbonus\include\minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1493026963 c:\users\user\desktop\last_version\withbonus\include\input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492265280 c:\users\user\desktop\last_version\withbonus\include\parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491809980 source:c:\users\user\desktop\last_version\withbonus\src\file_reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491810104 c:\users\user\desktop\last_version\withbonus\include\file_reader.h
+
+1492518384 source:c:\users\user\desktop\last_version\withbonus\src\input_analyzer.cpp
+	"input_analyzer.h"
+
+1493038236 source:c:\users\user\desktop\last_version\withbonus\src\input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1493037812 c:\users\user\desktop\last_version\withbonus\include\input_file.h
+	<bits/stdc++.h>
+
+1491810020 source:c:\users\user\desktop\last_version\withbonus\src\minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491810034 source:c:\users\user\desktop\last_version\withbonus\src\node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1493024727 source:c:\users\user\desktop\last_version\withbonus\src\table_constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1493036445 source:c:\users\user\desktop\last_version\withbonus\src\parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1493114508 source:/home/gehad/withbonus/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1491810092 /home/gehad/withbonus/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491810060 /home/gehad/withbonus/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491810132 /home/gehad/withbonus/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491810068 /home/gehad/withbonus/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491810080 /home/gehad/withbonus/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1493118754 /home/gehad/withbonus/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1493124895 /home/gehad/withbonus/include/Input_file.h
+	<bits/stdc++.h>
+
+1491809918 source:/home/gehad/withbonus/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491809934 source:/home/gehad/withbonus/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491809952 source:/home/gehad/withbonus/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491810516 source:/home/gehad/withbonus/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491810122 /home/gehad/withbonus/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1493026964 /home/gehad/withbonus/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492265280 /home/gehad/withbonus/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491809980 source:/home/gehad/withbonus/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491810104 /home/gehad/withbonus/include/File_Reader.h
+
+1492518384 source:/home/gehad/withbonus/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1493125724 source:/home/gehad/withbonus/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1491810020 source:/home/gehad/withbonus/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491810034 source:/home/gehad/withbonus/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1493118877 source:/home/gehad/withbonus/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1493120973 source:/home/gehad/withbonus/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1493114508 source:/home/rewan/Downloads/withbonus/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1491810092 /home/rewan/Downloads/withbonus/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491810060 /home/rewan/Downloads/withbonus/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491810132 /home/rewan/Downloads/withbonus/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491810068 /home/rewan/Downloads/withbonus/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491810080 /home/rewan/Downloads/withbonus/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1493118754 /home/rewan/Downloads/withbonus/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1493124894 /home/rewan/Downloads/withbonus/include/Input_file.h
+	<bits/stdc++.h>
+
+1491809918 source:/home/rewan/Downloads/withbonus/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491809934 source:/home/rewan/Downloads/withbonus/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491809952 source:/home/rewan/Downloads/withbonus/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491810516 source:/home/rewan/Downloads/withbonus/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491810122 /home/rewan/Downloads/withbonus/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1493026964 /home/rewan/Downloads/withbonus/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492265280 /home/rewan/Downloads/withbonus/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491809980 source:/home/rewan/Downloads/withbonus/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491810104 /home/rewan/Downloads/withbonus/include/File_Reader.h
+
+1492518384 source:/home/rewan/Downloads/withbonus/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1493135842 source:/home/rewan/Downloads/withbonus/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1491810020 source:/home/rewan/Downloads/withbonus/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491810034 source:/home/rewan/Downloads/withbonus/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1493118876 source:/home/rewan/Downloads/withbonus/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1493120972 source:/home/rewan/Downloads/withbonus/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1493114508 source:/home/rewan/Downloads/phase2/phase/main.cpp
+	<iostream>
+	"Engine.h"
+	"DfaCreator.h"
+	"Table_Constructor.h"
+	"Input_file.h"
+
+1491810092 /home/rewan/Downloads/phase2/phase/include/Engine.h
+	"Automata.h"
+	"Automata_maker.h"
+	"node.h"
+	<map>
+
+1491810060 /home/rewan/Downloads/phase2/phase/include/Automata.h
+	<list>
+	<stdio.h>
+	<map>
+	<string.h>
+	<bits/stdc++.h>
+	"node.h"
+
+1491810132 /home/rewan/Downloads/phase2/phase/include/node.h
+	<list>
+	<stdio.h>
+	<map>
+	<string>
+	<vector>
+
+1491810068 /home/rewan/Downloads/phase2/phase/include/Automata_maker.h
+	"Automata.h"
+	"node.h"
+	<map>
+
+1491810080 /home/rewan/Downloads/phase2/phase/include/DfaCreator.h
+	<bits/stdc++.h>
+	<node.h>
+	<Automata.h>
+
+1493118754 /home/rewan/Downloads/phase2/phase/include/Table_Constructor.h
+	<bits/stdc++.h>
+
+1493124894 /home/rewan/Downloads/phase2/phase/include/Input_file.h
+	<bits/stdc++.h>
+
+1491809918 source:/home/rewan/Downloads/phase2/phase/src/Automata.cpp
+	"Automata.h"
+	<iostream>
+
+1491809934 source:/home/rewan/Downloads/phase2/phase/src/Automata_maker.cpp
+	"Automata_maker.h"
+	"node.h"
+	<vector>
+	<set>
+	<algorithm>
+
+1491809952 source:/home/rewan/Downloads/phase2/phase/src/DfaCreator.cpp
+	"DfaCreator.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+	<string>
+
+1491810516 source:/home/rewan/Downloads/phase2/phase/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<fstream>
+	"DfaCreator.h"
+	"Minimization.h"
+	"input_analyzer.h"
+
+1491810122 /home/rewan/Downloads/phase2/phase/include/Minimization.h
+	<DfaCreator.h>
+	<Automata.h>
+	<node.h>
+
+1493026964 /home/rewan/Downloads/phase2/phase/include/input_analyzer.h
+	"node.h"
+	"Automata.h"
+	"Parser.h"
+
+1492265280 /home/rewan/Downloads/phase2/phase/include/Parser.h
+	"Table_Constructor.h"
+	<bits/stdc++.h>
+
+1491809980 source:/home/rewan/Downloads/phase2/phase/src/File_Reader.cpp
+	"File_Reader.h"
+	<iostream>
+	<fstream>
+
+1491810104 /home/rewan/Downloads/phase2/phase/include/File_Reader.h
+
+1492518384 source:/home/rewan/Downloads/phase2/phase/src/input_analyzer.cpp
+	"input_analyzer.h"
+
+1493135842 source:/home/rewan/Downloads/phase2/phase/src/Input_file.cpp
+	"Input_file.h"
+	<fstream>
+	<iostream>
+	<bits/stdc++.h>
+
+1491810020 source:/home/rewan/Downloads/phase2/phase/src/Minimization.cpp
+	"Minimization.h"
+	<node.h>
+	<Automata.h>
+	<bits/stdc++.h>
+
+1491810034 source:/home/rewan/Downloads/phase2/phase/src/node.cpp
+	"node.h"
+	<iostream>
+	<fstream>
+
+1493118876 source:/home/rewan/Downloads/phase2/phase/src/Parser.cpp
+	"Parser.h"
+	<bits/stdc++.h>
+
+1493120972 source:/home/rewan/Downloads/phase2/phase/src/Table_Constructor.cpp
+	"Table_Constructor.h"
+	"Input_file.h"
+
