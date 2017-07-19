@@ -4,9 +4,3 @@
   - phase2 : building automatic LL(1) parser generator tools (syntax)  
   - phase3 : constructing semantics rules to generate java bytecode (semantic) 
 
-- Team
-
-  - Esraa Mohamed
-  - Gehad Fathy
-  - Rewan Alaa
-  - Amira Mohamed
